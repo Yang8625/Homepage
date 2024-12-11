@@ -1,0 +1,179 @@
+container {
+    width: 100vw; 
+    height: auto;
+}
+
+section {
+    position: relative; 
+}
+
+@font-face{
+    font-family: JosefinSans-variableFont;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+
+}
+
+@font-face{
+    font-family: Jura-VariableFont;
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.top-nav{
+    font-family: JosefinSans-VariableFont;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/*.Polygon2{
+    width: 100vx;
+    height: 100vh;
+    background: url("../images/Polygon2.SVG");
+}*/
+
+.rectangle {
+    width: 100vw;
+    height: 200px;
+    background: #FF93AE;
+    top: 890px;
+    left: 860px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Pastel.jpg") no-repeat;
+/*     background: url("../images/Splash.png") no-repeat Fixed;*/
+    background-size: cover;
+    position: absolute;
+}
+
+
+.wrapper-background {
+    width: 90vw;
+    height: 100vh;
+    background: url("../images/DesSplash.svg") no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+
+.top-nav{
+    width: 680px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top-nav ul li{
+    float: Right; 
+}
+a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 14px 16px;
+float: left;
+}
+
+.NavBar{
+    width: 2100px;
+    height: 100px;
+    background-color: #FF93AE;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.About{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE;
+}
+
+
+.Creatia{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: Fixed;
+    top: 890px;
+    left: 830px;
+}
+
+.Create{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    color: #EE3966;
+    position: fixed;
+    top: 960px;
+    left: 860px;
+}
+
+.Poly1{
+    width: 100px;
+    height: 100px;
+    background: url("../images/Poly1.png");
+}
+
+.Info{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE ;
+}
+
+.CREATIA2{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: relative;
+    top: 300px;
+    left: 830px;
+}
+
+.AnimeDetour{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+
+.Poly3{
+    width: 483px;
+    height: 100vh;
+    background: url("../images/Poly3.png");
+}
+
+/*.Poly4{
+    width: 483px;
+    height: 100vh;
+    background: url("../images/Poly4.png");
+    left: 50%;
+}*/
+/*.octagon:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid orange;
+  border-left: 29px solid rgb(24,24,24);
+  border-right: 29px solid rgb(24,24,24);
+  width: 42px;
+  height: 0;
+}*/
+/*.octagon {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  position: relative;
+}*/
+
